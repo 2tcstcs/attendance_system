@@ -6,42 +6,42 @@
   --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
-  /* HSL Color Palette - Light Mode */
-  --hue: 215; /* Futuristic Tech Blue base */
+  /* HSL Color Palette - Light Mode (Low Saturation Light Blue) */
+  --hue: 205; /* Sky/Steel Blue base */
   
-  --bg-primary: hsl(var(--hue), 20%, 98%);
-  --bg-surface: hsla(var(--hue), 20%, 100%, 0.7);
-  --bg-glass: hsla(var(--hue), 20%, 100%, 0.4);
-  --border-color: hsla(var(--hue), 15%, 90%, 0.8);
-  --border-focus: hsl(var(--hue), 70%, 60%);
+  --bg-primary: hsl(var(--hue), 15%, 97%);
+  --bg-surface: hsla(var(--hue), 15%, 100%, 0.7);
+  --bg-glass: hsla(var(--hue), 15%, 100%, 0.45);
+  --border-color: hsla(var(--hue), 12%, 88%, 0.85);
+  --border-focus: hsl(var(--hue), 45%, 58%);
   
-  --text-primary: hsl(var(--hue), 25%, 15%);
-  --text-secondary: hsl(var(--hue), 15%, 45%);
-  --text-tertiary: hsl(var(--hue), 10%, 65%);
+  --text-primary: hsl(var(--hue), 18%, 25%);
+  --text-secondary: hsl(var(--hue), 12%, 50%);
+  --text-tertiary: hsl(var(--hue), 8%, 68%);
   
-  --primary: hsl(var(--hue), 70%, 55%);
-  --primary-hover: hsl(var(--hue), 75%, 48%);
-  --primary-light: hsl(var(--hue), 70%, 95%);
-  --primary-glow: hsla(var(--hue), 70%, 55%, 0.2);
+  --primary: hsl(var(--hue), 45%, 58%);
+  --primary-hover: hsl(var(--hue), 50%, 50%);
+  --primary-light: hsl(var(--hue), 45%, 94%);
+  --primary-glow: hsla(var(--hue), 45%, 58%, 0.15);
 
-  --success: hsl(145, 65%, 42%);
-  --success-light: hsl(145, 65%, 95%);
-  --success-glow: hsla(145, 65%, 42%, 0.2);
+  --success: hsl(145, 45%, 45%);
+  --success-light: hsl(145, 45%, 95%);
+  --success-glow: hsla(145, 45%, 45%, 0.15);
   
-  --warning: hsl(38, 92%, 50%);
-  --warning-light: hsl(38, 92%, 96%);
+  --warning: hsl(38, 65%, 52%);
+  --warning-light: hsl(38, 65%, 95%);
   
-  --danger: hsl(355, 75%, 52%);
-  --danger-light: hsl(355, 75%, 96%);
-  --danger-glow: hsla(355, 75%, 52%, 0.2);
+  --danger: hsl(355, 55%, 56%);
+  --danger-light: hsl(355, 55%, 96%);
+  --danger-glow: hsla(355, 55%, 56%, 0.15);
 
-  --info: hsl(195, 80%, 45%);
-  --info-light: hsl(195, 80%, 95%);
+  --info: hsl(195, 55%, 52%);
+  --info-light: hsl(195, 55%, 94%);
 
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12);
-  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.03);
   
   --glass-blur: 16px;
   --radius-sm: 8px;
@@ -50,40 +50,40 @@
 }
 
 [data-theme='dark'] {
-  /* HSL Color Palette - Dark Mode */
-  --bg-primary: hsl(var(--hue), 25%, 6%);
-  --bg-surface: hsla(var(--hue), 20%, 12%, 0.7);
-  --bg-glass: hsla(var(--hue), 20%, 8%, 0.4);
-  --border-color: hsla(var(--hue), 15%, 20%, 0.5);
-  --border-focus: hsl(var(--hue), 70%, 65%);
+  /* HSL Color Palette - Dark Mode (Low Saturation Light Blue) */
+  --bg-primary: hsl(var(--hue), 15%, 10%);
+  --bg-surface: hsla(var(--hue), 12%, 16%, 0.7);
+  --bg-glass: hsla(var(--hue), 12%, 12%, 0.4);
+  --border-color: hsla(var(--hue), 10%, 24%, 0.5);
+  --border-focus: hsl(var(--hue), 50%, 65%);
   
-  --text-primary: hsl(var(--hue), 15%, 94%);
-  --text-secondary: hsl(var(--hue), 10%, 75%);
-  --text-tertiary: hsl(var(--hue), 10%, 50%);
+  --text-primary: hsl(var(--hue), 10%, 90%);
+  --text-secondary: hsl(var(--hue), 8%, 75%);
+  --text-tertiary: hsl(var(--hue), 6%, 52%);
   
-  --primary: hsl(var(--hue), 75%, 65%);
-  --primary-hover: hsl(var(--hue), 80%, 58%);
-  --primary-light: hsl(var(--hue), 35%, 15%);
-  --primary-glow: hsla(var(--hue), 75%, 65%, 0.35);
+  --primary: hsl(var(--hue), 50%, 68%);
+  --primary-hover: hsl(var(--hue), 55%, 60%);
+  --primary-light: hsl(var(--hue), 25%, 18%);
+  --primary-glow: hsla(var(--hue), 50%, 68%, 0.25);
 
-  --success: hsl(145, 70%, 55%);
-  --success-light: hsl(145, 40%, 14%);
-  --success-glow: hsla(145, 70%, 55%, 0.3);
+  --success: hsl(145, 50%, 55%);
+  --success-light: hsl(145, 30%, 14%);
+  --success-glow: hsla(145, 50%, 55%, 0.2);
   
-  --warning: hsl(38, 95%, 60%);
-  --warning-light: hsl(38, 50%, 15%);
+  --warning: hsl(38, 70%, 60%);
+  --warning-light: hsl(38, 40%, 15%);
   
-  --danger: hsl(355, 80%, 62%);
-  --danger-light: hsl(355, 45%, 15%);
-  --danger-glow: hsla(355, 80%, 62%, 0.3);
+  --danger: hsl(355, 60%, 64%);
+  --danger-light: hsl(355, 35%, 16%);
+  --danger-glow: hsla(355, 60%, 64%, 0.2);
 
-  --info: hsl(195, 85%, 60%);
-  --info-light: hsl(195, 45%, 15%);
+  --info: hsl(195, 60%, 64%);
+  --info-light: hsl(195, 35%, 16%);
 
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
-  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.4);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* CSS Reset & Basics */
