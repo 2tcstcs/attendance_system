@@ -138,7 +138,7 @@ export default function HistoryCalendar({ punchLogs, userRoster }) {
         <p className="title-meta-desc">檢視歷史打卡明細與數據匯出</p>
       </div>
 
-      <div className="dashboard-grid">
+      <div className="calendar-layout">
         {/* Calendar View */}
         <div className="history-section glass-panel">
           <div className="section-title">

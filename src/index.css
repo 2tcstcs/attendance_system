@@ -338,6 +338,20 @@ a {
   }
 }
 
+/* Calendar Layout Grid */
+.calendar-layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+  .calendar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* KPI Summary Deck */
 .kpi-deck {
   display: grid;
@@ -566,6 +580,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .export-btn {
@@ -987,9 +1003,20 @@ a {
 .shift-tag.rest { background-color: var(--border-color); color: var(--text-secondary); }
 
 /* General Title Info */
+.title-meta {
+  margin-bottom: 24px;
+}
+
+.title-meta h2 {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
 .title-meta-desc {
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--text-secondary);
-  margin-top: -12px;
-  margin-bottom: 16px;
+  margin: 0;
 }
