@@ -7,7 +7,7 @@
   --font-mono: 'JetBrains Mono', monospace;
 
   /* HSL Color Palette - Light Mode */
-  --hue: 250; /* Indigo/Violet base */
+  --hue: 215; /* Futuristic Tech Blue base */
   
   --bg-primary: hsl(var(--hue), 20%, 98%);
   --bg-surface: hsla(var(--hue), 20%, 100%, 0.7);
